@@ -40,6 +40,10 @@ body {
     height: 60px;
     left: 128px;
     top: 30px;
+    transition: .5s;
+}
+.logo:hover{
+    transform: rotate(20deg);
 }
 
 .nav-menu {
@@ -101,7 +105,9 @@ body {
 }
 
 .nav-button a:hover {
-    transform: translateY(5px);
+    transform: translateY(-5px);
+    color: #222;
+    background-color: #FCA311;
 }
 
 .container-text {
@@ -127,6 +133,7 @@ body {
 }
 
 .header-1 {
+    margin-top: 10px;
     color: #f4f4f4;
     font-family: Montserrat;
     font-style: normal;
@@ -136,15 +143,18 @@ body {
 }
 
 .header-1 span {
+
     color: #FCA311;
 }
 
 .paragraph {
+    margin-top: 10px;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 26px;
+    width: 370px;
 
     /* or 162% */
     letter-spacing: 0.005em;
@@ -160,71 +170,48 @@ body {
     top: 136px;
 }
 
-.social-container {
-    top: 90px;
-    left: 55px;
+.social-menu {
+    margin-top: 10px;
     position: absolute;
-    width: 400px;
-    margin: 40vh auto;
-    text-align: center
+    width: 226px;
+    height: 44px;
+    left: 0px;
+    top: 280px;
+}
+.social-menu ul{
+    display: flex;
 }
 
-.social-icons {
-    padding: 0;
-    list-style: none;
-    margin: 1em
+.social-menu ul li{
+list-style: none;
+margin: 0 10px 0 0;
 }
-
-.social-icons li {
-    display: inline-block;
-    margin: .15em;
-    position: relative;
-    font-size: 1.2em
+.social-menu ul li .bx{
+    color: #222;
+    font-size: 25px;
+    line-height: 44px;
+    transition: .5s;
 }
-
-.social-icons i {
-    color: #111111;
-    position: absolute;
-    top: 21px;
-    left: 21px;
-    transition: all 265ms ease-out
-}
-
-.social-icons a {
-    display: inline-block
-}
-
-.social-icons a:before {
-    transform: scale(1);
-    -ms-transform: scale(1);
-    -webkit-transform: scale(1);
-    content: " ";
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-    display: block;
-    background: #FCA311;
-    transition: all 265ms ease-out
-}
-
-.social-icons a:hover:before {
-    transform: scale(0);
-    transition: all 265ms ease-in
-}
-
-.social-icons a:hover i {
-    transform: scale(2.2);
-    -ms-transform: scale(2.2);
-    -webkit-transform: scale(2.2);
+.social-menu ul li .bx:hover{
     color: #FCA311;
-    background: #FCA311;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: all 265ms ease-in
 }
 
-/*  */
+.social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #FCA311;
+    text-align: center;
+    transition: 0.5s;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
 
+.social-menu ul li a:hover{
+    background-color: #222;
+    transform: translateY(-5px);
+}
 .comment {
     position: absolute;
     height: 600px;
@@ -268,6 +255,6 @@ body {
     color: #F3F3F3;
 }
 
-.comment-icon{
+.comment-icon {
     font-size: 1.2em
 }
