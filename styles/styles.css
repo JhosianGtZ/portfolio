@@ -10,6 +10,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background: #111111;
+    max-width: 1366px;
     min-height: 100vh;
 }
 
@@ -151,7 +152,6 @@ body {
     color: #F3F3F3;
 }
 
-
 .ilustration-container {
     position: absolute;
     width: 600px;
@@ -159,7 +159,6 @@ body {
     left: 709px;
     top: 136px;
 }
-
 
 .social-container {
     top: 90px;
@@ -222,4 +221,53 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 265ms ease-in
+}
+
+/*  */
+
+.comment {
+    position: absolute;
+    height: 600px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.comment h2 {
+    position: absolute;
+    width: 889px;
+    height: 46px;
+    left: 238px;
+    top: 198px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 46px;
+
+    color: #F3F3F3;
+}
+
+.comment h3 {
+    position: absolute;
+    width: 577px;
+    height: 36px;
+    left: 396px;
+    top: 265px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+
+    /* identical to box height */
+
+    color: #F3F3F3;
+}
+
+.comment-icon{
+    font-size: 1.2em
 }
