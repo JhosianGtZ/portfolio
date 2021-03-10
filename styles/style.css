@@ -238,8 +238,10 @@ nav {
 }
 
 .ilustration{
+    margin-top: 10px;
     position: absolute;
     left: 35%;
     transform: translatex(35%);
 }
+
 
