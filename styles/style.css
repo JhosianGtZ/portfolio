@@ -4,13 +4,18 @@
     --gray: #222;
     --black: #111;
     --d-gray: #7C7C7C;
-
+    --header2: 48px;
+    --header1: 59px;
 }
 
 * {
     margin: 0;
     box-sizing: border-box;
     background: var(--black);
+}
+
+body {
+    background-color: black;
 }
 
 nav {
@@ -21,7 +26,8 @@ nav {
     align-items: center;
     justify-content: center;
 }
-#navbarNav{
+
+#navbarNav {
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
@@ -77,7 +83,7 @@ nav {
 
 
 .btn-cv {
-    margin: 10px; 
+    margin: 10px;
     position: absolute;
     left: 90%;
     transform: translatex(-90%);
@@ -105,4 +111,80 @@ nav {
     color: var(--black);
     background-color: var(--primary);
     filter: drop-shadow(0px 4px 10px rgba(252, 163, 17, 0.3));
+}
+
+.container-fluid {
+    background: var(--black);
+    color: var(--white);
+}
+
+.container-fluid h2 {
+    margin-top: 30px;
+    font-size: var(--header2);
+    position: absolute;
+    width: 388px;
+    height: 59px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+
+    /* identical to box height */
+
+    color: var(--white);
+
+    left: 13%;
+    transform: translatex(-13%);
+    transition: .5s;
+}
+
+.container-fluid h1 {
+    font-size: var(--header1);
+}
+
+.container-fluid h1 span {
+    color: var(--primary);
+    font-size: var(--header1);
+    color: var(--primary);
+}
+
+.container-fluid h1 {
+    position: absolute;
+    width: 344px;
+    height: 72px;
+    margin-top: 95px;
+    left: 13%;
+    transform: translatex(-13%);
+    transition: .5s;
+
+    font-family: 'Montserrat' , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 59px;
+    line-height: 72px;
+
+    /* identical to box height */
+
+    color: var(--white);
+}
+
+.container-fluid p {
+    position: absolute;
+    margin-top: 175px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    width: 370px;
+
+    left: 13%;
+    transform: translatex(-13%);
+    transition: .5s;
+
+
+
+
 }
