@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Page desing by Jhosian c: -->
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jhosian Gutiérrez | Web Developer</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <!-- Styles -->
-    <link rel="stylesheet" href="styles/styles.css">
+    <!-- Style Custom -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- Bootstrp css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
@@ -20,59 +21,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
     <!-- Icons -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-
 </head>
 
 <body>
-
-    <main class="container">
-        <nav class="nav-container">
-            <div class="logo">
-                <img src="images/logo 1.svg" alt="Jhosian-logo">
-            </div>
-            <div class="nav-menu">
-                <ul>
-                    <li class="nav-item"><a href="">Hello</a></li>
-                    <li class="nav-item"><a href="">Projects</a></li>
-                    <li class="nav-item"><a href="">Contact</a></li>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand col-2" href="#"><img src="images/logo 1.svg" alt="Jhosian Gutiérrez - Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class='bx bx-menu-alt-right'></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav col-6">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hello</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
                 </ul>
+                <a class="btn-cv" href="">Download CV</a>                
             </div>
-            <div class="nav-button">
-                <a href="">Download CV</a>
-            </div>
-        </nav>
-
-        <div class="container-text">
-            <h2 class="header-2">¡Hello everyone!</h2>
-            <h1 class="header-1">I'm <span>Jhosian</span></h1>
-            <p class="paragraph">I’m web Developer and Designer from México.
-                I love making amazing designs and making them come true.</p>
-            <div class="social-menu">
-                <ul>
-                    <li><a href=""><i class="bx bxl-instagram"></i></a></li>
-                    <li><a href=""><i class="bx bxl-linkedin"></i></a></li>
-                    <li><a href=""><i class="bx bxl-github"></i></a></li>
-                    <li><a href=""><i class="bx bx-mail-send"></i></a></li>
-                </ul>
-            </div>
-
+            
         </div>
+        
+    </nav>
 
-        <div class="ilustration-container">
-            <img src="images/Image.svg" alt="" class="animated">
-        </div>
-    </main>
-    <div class="comment">
-
-        <h2>I’ve done amazing projects in my short career.</h2>
-        <h3>Here are some projects that I want to show you.</h3>
-        <div class="comment-btn">
-            <a href=""><i class='bx bxs-down-arrow-alt'></i></a>
-        </div>
-
-
+    <div class="container">
+        <h1></h1>
     </div>
 
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
