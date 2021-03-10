@@ -17,9 +17,25 @@ nav {
     height: 100px;
 }
 
-.navbar-collapse {
+#navbarNav {
     align-items: center;
     justify-content: center;
+}
+#navbarNav{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+#logo{
+    position: absolute;
+    left: 10%;
+    transform: translatex(-10%);
+}
+#btnCv{
+    position: absolute;
+    left: 90%;
+    transform: translatex(-90%);
+
 }
 
 .navbar-toggler-icon {
