@@ -239,8 +239,7 @@ nav {
 
 .ilustration{
     position: absolute;
-    left: 30%;
-    transform: translatex(50%);
-
+    left: 35%;
+    transform: translatex(35%);
 }
 
