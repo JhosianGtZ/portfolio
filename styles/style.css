@@ -6,6 +6,8 @@
     --d-gray: #7C7C7C;
     --header2: 48px;
     --header1: 59px;
+    --header3: 35px;
+    --title: 25px;
 }
 
 * {
@@ -159,7 +161,7 @@ nav {
     transform: translatex(-13%);
     transition: .5s;
 
-    font-family: 'Montserrat' , sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 59px;
@@ -195,6 +197,7 @@ nav {
     left: 10%;
     transform: translatex(-10%);
 }
+
 .social-menu ul {
     justify-content: center;
     align-items: center;
@@ -202,7 +205,7 @@ nav {
     display: flex;
 }
 
-.social-menu  li {
+.social-menu li {
     list-style: none;
     margin: 0 10px 0 0;
 }
@@ -217,7 +220,7 @@ nav {
 
 .social-menu ul li .bx:hover {
     color: var(--primary);
-    
+
 }
 
 .social-menu ul li a {
@@ -237,11 +240,112 @@ nav {
     transform: translateY(-5px);
 }
 
-.ilustration{
+.ilustration {
     margin-top: 10px;
     position: absolute;
     left: 35%;
     transform: translatex(35%);
 }
 
+.container-projects {
+    height: 1060px;
+}
 
+.container-projects h2 {
+
+    font-size: var(--header3);
+    position: absolute;
+    width: 457px;
+    top: 720px;
+
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+
+    /* identical to box height */
+
+    color: var(--white);
+}
+
+.container-projects span {
+    color: var(--primary);
+}
+
+
+.projects h3 {
+    /* background: pink; */
+    font-size: var(--title);
+    position: absolute;
+    color: var(--white);
+    left: 9%;
+    transform: translatex(-9%);
+}
+
+.projects .card {
+    position: absolute;
+    top: 800px;
+    margin: 1em;
+    left: 9%;
+    transform: translatex(-9%);
+    margin-top: 25px;
+}
+
+.projects .card-2 {
+    position: absolute;
+    top: 800px;
+    margin: 1em;
+    left: 35%;
+    /* transform: translatex(-19%); */
+    margin-top: 25px;
+}
+
+.projects .card-3 {
+    position: absolute;
+    top: 800px;
+    margin: 1em;
+    left: 65%;
+    transform: translatex(-9%);
+    margin-top: 25px;
+}
+
+.projects .card,
+.card-2,
+.card-3 {
+    background-color: var(--black);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.projects .card,
+.card-2,
+.card-3 .card-title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 28px;
+
+    /* identical to box height */
+
+    color: #FCA311;
+}
+
+
+.btn-primary {
+    background-color: var(--primary) !important;
+    border: none !important;
+    color: var(--white);
+    transition: .5s !important;
+    font-weight: 600 !important;
+}
+
+.btn-primary:hover {
+
+    background-color: var(--black) !important;
+    border: none !important;
+    color: var(--primary) !important;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5) !important;
+    transform: translateY(-2px) !important;
+
+}
